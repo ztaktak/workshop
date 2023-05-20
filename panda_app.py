@@ -22,3 +22,4 @@ if st.button('how can i help you') and file is not None:
     with st.spinner('thinking ...'):
         reponse = pandas_ai(df, prompt='question')
         st.write(reponse)
+        st.write("done")
